@@ -1,6 +1,6 @@
 import requests
 url = '185.65.246.123:'
-url = 'http://localhost:8080/sn'
+url = 'http://185.65.246.123:8080/sn'
 
 def send_request(sn):
     print('starting request to ' + url)
